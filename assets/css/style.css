@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3e5d7;
+}
+
+main {
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 2.5rem;
+    width: 39rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+.Intro-sec h2 {
+    font-size: 2.4rem;
+    color: #312e2c;
+    font-weight: 500;
+    line-height: 5.6rem;
+}
+
+.Intro-sec p {
+    color: #5f564d;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.prep-time-sec {
+    background-color: #fff7fb;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.prep-time-sec h3 {
+    color: #7a284e;
+    font-size: 1.6rem;
+}
+
+ul {
+
+    line-height: 3rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+.Ingredients-sec,
+.Instructions-sec,
+.Nutrition-sec {
+    margin-top: 2rem;
+
+}
+
+.Ingredients-sec h3 {
+    color: #854632;
+    font-size: 2rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e3ddd7;
+    width: 90%;
+    margin: 1.8rem auto 0 auto;
+}
+
+
+.Instructions-sec h3 {
+    color: #854632;
+    font-size: 2rem;
+}
+
+ol {
+
+    line-height: 3rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+
+}
+
+.Nutrition-sec h3 {
+    color: #854632;
+    font-size: 2rem;
+}
+
+.Nutrition-sec p {
+    line-height: 3rem;
+    color: #5f564d;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+
+    font-size: 1rem;
+
+    line-height: 2rem;
+}
+
+td:last-child {
+    font-weight: 600;
+    color: #854632;
+}
+
+.attribution {
+    font-size: 0.8rem;
+    text-align: right;
+
+}
+
+.attribution a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px) and (min-width:667px) {
+    main {
+
+        width: 32rem;
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width:467px) {
+    main {
+
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    main {
+        background-color: white;
+        border-radius: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+        padding: 0px;
+        width: 100vw;
+        max-width: 100%;
+
+    }
+
+    .Nutrition-sec p {
+        line-height: 1.5rem;
+        color: #5f564d;
+    }
+
+    section {
+
+        padding: 0 2rem 0 2rem;
+    }
+
+    figure {
+
+        width: 100%;
+
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0.75rem;
+    }
+
+    .Intro-sec h2 {
+        font-size: 2rem;
+        color: #312e2c;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    .prep-time-sec h3 {
+        color: #7a284e;
+        font-size: 1.3rem;
+    }
+
+    .Ingredients-sec h3 {
+        color: #854632;
+        font-size: 1.5rem;
+    }
+
+    ul {
+        line-height: 2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    ol {
+        line-height: 2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+}
